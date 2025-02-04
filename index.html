@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../Katekani-Nyamandi-199-semitone-difference-basic-algorithm-javascript/styles.css">
+    <title>JamBuddy Game</title>
+
+</head>
+<body class="relative min-h-screen flex flex-col items-center justify-center text-white">
+    <div class="absolute inset-0 background-overlay"></div>
+    <div class="relative bg-purple-200/85 pl-20 pr-20 pt-10 pb-10 rounded-lg shadow-lg text-white">
+        <div class="rounded-lg shadow-lg bg-purple-400/85">
+            <h1 class="text-center text-5xl font-bold mb-4 p-10">JamBuddy Game</h1>
+            <div id="notes" class="mb-4 text-white p-8 text-center">
+                <p class="text-3xl mb-4">Notes:</p>
+                <span id="note1" class="text-5xl font-semibold"></span>
+                <span id="note2" class="text-5xl font-semibold ml-4"></span>
+            </div>
+            <p id="result" class="text-3xl text-center pb-5"></p>
+        </div>
+        <button id="randomize" class=" text-3xl bg-purple-400 text-white px-4 py-4 rounded my-8 mx-auto block">Get Random
+            Notes</button>
+        <form id="answer-form">
+            <input type="number" id="answer" class="border border-gray-300 p-2 rounded mr-2 text-gray-900 text-3xl text-purple-400"
+                placeholder="Enter the distance" required>
+            <button id="submit" type="submit" class="bg-pink-400 text-white px-4 py-2 rounded text-3xl">Submit</button>
+        </form>
+    
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>

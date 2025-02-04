@@ -1,0 +1,20 @@
+{
+  "name": "katekani-nyamandi-199-semitone-difference-basic-algorithm-javascript",
+  "version": "1.0.0",
+  "description": "semitone difference - basic algorithm (199) For raw project instructions see: http://syllabus.africacode.net/projects/semitone-challenge/basic-algorithm/",
+  "main": "../src/jam_buddy.js",
+  "private": true,
+  "scripts": {
+    "test": "jasmine",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "Katekani Nyamandi",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^5.2.0",
+    "jsdom": "^25.0.0",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

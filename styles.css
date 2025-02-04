@@ -1,0 +1,6 @@
+.background-overlay {
+    background-image: url('public/bg-music.png');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
