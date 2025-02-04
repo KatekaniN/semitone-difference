@@ -39,3 +39,11 @@ Welcome to the JamBuddy Game project! This project allows users to interact with
 	2.	Click on the “Get Random Notes” button to display random musical notes.
 	3.	Enter your guess for the distance in the input field and click “Submit” to check if your answer is correct.
 
+4. ## Testing
+
+Run tests using:
+
+```
+npm test
+```
+
